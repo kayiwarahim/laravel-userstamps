@@ -2,7 +2,7 @@
 
 namespace Hrshadhin\Userstamps;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

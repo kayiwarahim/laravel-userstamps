@@ -4,6 +4,7 @@ Laravel Userstamps is a simple Laravel package for your Eloquent Model user spec
 This package automatically inserts/updates an user id on your table on who created, last updated and deleted the record.
 
 ## Install
+
 1. Add repositories in composer.json
 
 ```
@@ -15,19 +16,24 @@ This package automatically inserts/updates an user id on your table on who creat
     }
  ],
 ```
+
 2. Add the package name in `composer.json` require section:
-    - For Laravel 5.x use [v1.0.1](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v1.0.1)
-    ```
-     "hrshadhin/laravel-userstamps": "^1.0.0"
-    ```
-    - For Laravel 6.x use `master` or  [v2.0.1](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v2.0.1)
-    ```
-     "hrshadhin/laravel-userstamps": "^2.0.0"
-    ```
-   - For Laravel 7.x use `master` or  [v3.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v3.0.0)
-    ```
-     "hrshadhin/laravel-userstamps": "^3.0.0"
-    ```
+   - For Laravel 5.x use [v1.0.1](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v1.0.1)
+   ```
+    "hrshadhin/laravel-userstamps": "^1.0.0"
+   ```
+   - For Laravel 6.x use [v2.0.1](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v2.0.1)
+   ```
+    "hrshadhin/laravel-userstamps": "^2.0.0"
+   ```
+   - For Laravel 7.x use [v3.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v3.0.0)
+   ```
+    "hrshadhin/laravel-userstamps": "^3.0.0"
+   ```
+   - For Laravel 8.x use master Or [v4.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v4.0.0)
+   ```
+    "hrshadhin/laravel-userstamps": "^4.0.0"
+   ```
 
 ## Usage
 
@@ -44,7 +50,7 @@ Schema::create('users', function (Blueprint $table) {
 
 Then use `UserstampsTrait` on your model.
 
-``` php
+```php
 namespace App;
 
 use Hrshadhin\Userstamps\UserstampsTrait;
@@ -66,7 +72,6 @@ Schema::create('users', function (Blueprint $table) {
 ```
 
 And your done!
-
 
 ## License
 
