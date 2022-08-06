@@ -30,9 +30,13 @@ This package automatically inserts/updates an user id on your table on who creat
    ```
     "hrshadhin/laravel-userstamps": "^3.0.0"
    ```
-   - For Laravel 8.x use master Or [v4.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v4.0.0)
+   - For Laravel 8.x use [v4.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v4.0.0)
    ```
     "hrshadhin/laravel-userstamps": "^4.0.0"
+   ```
+   - For Laravel 9.x use master Or [v5.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v5.0.0)
+   ```
+    "hrshadhin/laravel-userstamps": "^5.0.0"
    ```
 
 ## Usage
