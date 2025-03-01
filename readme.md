@@ -10,7 +10,7 @@ This package automatically inserts/updates an user id on your table on who creat
 ```
 "repositories": [
    {
-     "url": "https://github.com/hrshadhin/laravel-userstamps.git",
+     "url": "https://github.com/kayiwarahim/laravel-userstamps.git",
 
       "type": "git"
     }
@@ -34,9 +34,13 @@ This package automatically inserts/updates an user id on your table on who creat
    ```
     "hrshadhin/laravel-userstamps": "^4.0.0"
    ```
-   - For Laravel 9.x use master Or [v5.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v5.0.0)
+   - For Laravel 9.x use [v5.0.0](https://github.com/hrshadhin/laravel-userstamps/releases/tag/v5.0.0)
    ```
     "hrshadhin/laravel-userstamps": "^5.0.0"
+   ```
+   - For Laravel 10.x use [v6.0.0](https://github.com/kayiwarahim/laravel-userstamps/releases/tag/v5.0.0)
+   ```
+    "kayiwarahim/laravel-userstamps": "^6.0.0"
    ```
 
 ## Usage
