@@ -1,5 +1,5 @@
 {
-  "name": "hrshadhin/laravel-userstamps",
+  "name": "kayiwarahim/laravel-userstamps",
   "homepage": "https://github.com/kayiwarahim/laravel-userstamps",
   "license": "MIT",
   "description": "A simple Laravel package for Eloquent Model user specific fields.",
