@@ -1,10 +1,11 @@
 {
   "name": "hrshadhin/laravel-userstamps",
-  "homepage": "https://github.com/hrshadhin/laravel-userstamps",
+  "homepage": "https://github.com/kayiwarahim/laravel-userstamps",
   "license": "MIT",
   "description": "A simple Laravel package for Eloquent Model user specific fields.",
   "keywords": [
     "hrshadhin",
+    "kayiwarahim",
     "laravel",
     "userstamps",
     "eloquent",
@@ -16,17 +17,17 @@
   "minimum-stability": "stable",
   "authors": [
     {
-      "name": "H.R.Shadhin",
-      "email": "dev@hrshadhin.me"
+      "name": "Kayiwa Rahim",
+      "email": "admin@kayiwarahim.xyz"
     }
   ],
   "readme": "./readme.md",
-  "time": "2022-08-06",
+  "time": "2025-03-01",
   "require": {
     "php": "^7.2 || ^8.0 || ^8.1 || ^8.2",
     "illuminate/support": "^6.0 || ^9.0 || ^10.0",
     "illuminate/database": "^6.0 || ^9.0 || ^10.0"
-}
+  },
   "autoload": {
     "psr-4": {
       "Hrshadhin\\Userstamps\\": "src/"
